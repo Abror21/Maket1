@@ -1,0 +1,177 @@
+.navbar>.container-fluid {
+    padding: 0;
+}
+
+.navbar-header {
+    width: 12%;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.navbar-brand {
+    font-size: 3.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #000;
+}
+
+.nav {
+    width: 88%;
+    float: right;
+}
+
+.nav li {
+    margin-top: 19px;
+}
+
+.nav li:nth-child(8) {
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 2rem;
+}
+
+.nav li a {
+    padding: 7px 0 .3rem 0;
+    font-size: 1.4rem;
+    color: #000;
+    margin: 0 .8rem;
+}
+
+.nav li a:hover {
+    border-bottom: 4px solid darkblue;
+    background-color: unset;
+}
+
+.nav li:nth-child(8) p:nth-child(1) {
+    color: #000;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.nav li:nth-child(8) p:nth-child(2) {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 8px 35px;
+    cursor: pointer;
+}
+
+/* ------------ */
+
+.main .row .col div {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+}
+
+.main .row .col div:hover .imgbottom {
+    visibility: hidden;
+}
+
+.main .row .col div:hover .hover {
+    visibility: visible;
+}
+
+.main .row .col .imgbottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 45px;
+    font-size: 2.4rem;
+    font-weight: bolder;
+    padding: .4rem 3rem;
+    background-color: rgba(10, 10, 10, .5);
+    color: #fff;
+}
+
+.main .row .col .hover {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(49, 2, 116, .9);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: left;
+    padding: 12rem 8rem 0 6rem;
+    visibility: hidden;
+    box-sizing: border-box;
+    line-height: 2.5rem;
+}
+
+p:nth-child(4) {
+    font-size: 1.3rem;
+    margin-left: 20px;
+    margin-bottom: .8rem;
+    font-weight: 700;
+}
+
+.cont2 .row .col div span:nth-child(1) {
+    font-size: 2rem;
+    color: #5A6992;
+}
+
+.cont2 .row .col div span:nth-child(2) {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #192364;
+}
+
+/* --------------------- */
+
+.cont3 .row1 .col:nth-child(2) {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    color: #0B195A;
+    padding: 2rem 10vw 2rem 2rem;
+}
+
+.cont3 .row2 .col1 {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    color: #0B195A;
+    padding: 2rem 2rem 2rem 200px;
+}
+
+.cont3 .row3 .col2 {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    color: #0B195A;
+    padding: 2rem 200px 2rem 2rem;
+}
+
+.cont3 .row4 .col1 {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    color: #0B195A;
+    padding: 2rem 2rem 2rem 200px;
+}
+
+.cont3 .row5 .col2 {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    color: #0B195A;
+    padding: 2rem 200px 2rem 2rem;
+}
+
+.cont3 .row6 .col1 {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    color: #0B195A;
+    padding: 2rem 2rem 2rem 200px;
+}
+
+.nav2 li a:hover {
+    background-color: aqua;
+    border-bottom: 4px solid #fff;
+}
+@media (max-width: 1200px) {
+    body {
+      display: none;
+    }
+  }
